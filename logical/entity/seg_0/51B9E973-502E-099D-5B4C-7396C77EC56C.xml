@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51B9E973-502E-099D-5B4C-7396C77EC56C" name="Oficina">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:00:07 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_oficina" id="E9239904-B1DC-1DF4-2FE9-0D4ADF777C7A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:20:06 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="BA0E1C80-642C-25BB-F94D-97CB624D4854">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:23:45 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="0F25C010-DF03-A351-A7D0-8DA6E5FC822B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:25:27 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="9CD6178C-A462-C823-6768-20B965ACD0C6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:26:12 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_rua" id="FC0B9F4F-4CBE-1130-FD2A-10BCF1D0E80D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:26:49 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="DFCB8E27-08C9-DCBD-278E-A6727E6254E7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:27:09 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6C767AF-E808-292D-B577-7D6508C6E042" name="Oficina PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:20:14 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E9239904-B1DC-1DF4-2FE9-0D4ADF777C7A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

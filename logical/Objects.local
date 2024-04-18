@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="72A3BEFA-4682-7F68-2134-1912870157FB" name="Cliente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C18F3DF8-AC72-63DC-7583-055FFDC86A9D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="199B1006-B934-6D76-4554-40B9FCBF84F1" name="Mecanico" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C18F3DF8-AC72-63DC-7583-055FFDC86A9D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="51B9E973-502E-099D-5B4C-7396C77EC56C" name="Oficina" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C18F3DF8-AC72-63DC-7583-055FFDC86A9D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="DA772779-AED3-2F87-E01B-5C3A15F85C14" name="Seguro" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C18F3DF8-AC72-63DC-7583-055FFDC86A9D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="BADCD80D-7627-F436-AA78-FB2993B5214C" name="Veiculo" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C18F3DF8-AC72-63DC-7583-055FFDC86A9D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="43C32CA2-2C73-FEC1-FFB1-33AB92B8D9B1" name="Fk_Ocifina_Mecanico" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="C18F3DF8-AC72-63DC-7583-055FFDC86A9D" propertySourceId="51B9E973-502E-099D-5B4C-7396C77EC56C" propertyTargetId="199B1006-B934-6D76-4554-40B9FCBF84F1"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

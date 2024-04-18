@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="199B1006-B934-6D76-4554-40B9FCBF84F1" name="Mecanico">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 13:58:15 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_mecanico" id="6F80EBE3-6126-1FA8-E7E1-20A6827B839B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:01:30 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_oficina" id="A2C28502-16EA-E553-548D-C639670D2623">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:38:48 UTC</createdTime>
+<generatorID>43C32CA2-2C73-FEC1-FFB1-33AB92B8D9B1</generatorID>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<referedAttribute>E9239904-B1DC-1DF4-2FE9-0D4ADF777C7A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="BB86646A-E2CE-856F-A3D1-7F136EDE062F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:09:09 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="07E2798B-538F-4FEB-3D72-8EC3B1DBAE75">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:09:37 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone_fixo" id="65B41CEC-9A2B-79EE-7B60-CF4F669B6C8F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:10:00 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D8203F2-E1DE-036D-C675-F0B39FDD99B5" name="Mecanico PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:01:54 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F80EBE3-6126-1FA8-E7E1-20A6827B839B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72A3BEFA-4682-7F68-2134-1912870157FB" name="Cliente">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 13:58:23 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="6832A0F3-0098-F6C6-F7A7-8C17C6758E4F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:11:58 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="16D663AD-22A0-0A28-2407-A2DC9FEA76E0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:12:08 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="7CA978D9-4C19-AAFD-5585-5F276E9A375A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:12:21 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="9F51618F-DA19-F742-A902-46480FB5D8AA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:12:36 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nascimento" id="6815BBD9-6777-C327-C599-24F8B9A18DA7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:12:45 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="5A3B5FE4-A7DE-5837-EAEC-325FC5D10D04">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:13:03 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pronome" id="D8E48C68-9AEF-38E5-7635-CEE840BBE8F1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:15:51 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="4B043A19-7A06-DD7C-9136-1DE255F27560">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:16:10 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rg" id="FD6F99F6-28F5-5528-8523-9A30F8030E32">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:16:26 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="EC8D1666-E313-C557-ABC6-A30365926EA6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:17:12 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnh" id="A402F473-50AE-78E0-3710-B7113955D296">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:22:38 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98AC63A8-68B7-D3F7-2699-2AEBF837413B" name="Cliente PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:12:06 UTC</createdTime>
+<ownerDesignName>esboco</ownerDesignName>
+<engineerTo>
+<item key="37361508-6B72-F0CE-07D4-949875A4365B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6832A0F3-0098-F6C6-F7A7-8C17C6758E4F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
